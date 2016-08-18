@@ -11,7 +11,7 @@ class DateTimePicker extends Component {
 
   componentDidMount() {
     var thisInstance = this
-    $('.datepicker').kendoDatePicker({
+    $('.datepicker').kendoDateTimePicker({
         change: function(e) {
           // console.log('the selected data is ' +  this.value())
           thisInstance.setState({value: this.value()})
@@ -43,4 +43,4 @@ class DateTimePicker extends Component {
   }
 }
 
-export default DatePicker
+export default DateTimePicker
