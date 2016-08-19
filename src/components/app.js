@@ -23,7 +23,9 @@ import React, { Component } from 'react';
 // import DateTimePicker from './Misc/dateTimePicker'
 // import ToolTip from './Misc/toolTip'
 // import TreeView from './Misc/treeView'
-import Upload from './Misc/upload'
+// import Upload from './Misc/upload'
+// import Widget from './Misc/widget'
+import Window from './Misc/window'
 
 export default class App extends Component {
   render() {
@@ -31,7 +33,7 @@ export default class App extends Component {
     return (
       <div>React simple starter
       <br/ >
-        <Upload />
+        <Window />
       </div>
     )
   }
